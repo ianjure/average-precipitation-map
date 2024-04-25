@@ -1,21 +1,3 @@
----
-title: |
-  | DS221
-  | Data Visualization and Storytelling
-subtitle: |
-  | --------------------------------------------------
-  | PORTFOLIO 1
-  | --------------------------------------------------
-output: pdf_document
-header-includes:
-  - "\\usepackage{titling}"
-  - "\\pretitle{\\begin{center}\\LARGE\\includegraphics[width=4cm]{logo.png}\\\\[\\bigskipamount]}"
-  - "\\posttitle{\\end{center}}"
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 ## About the Project
 
 Precipitation refers to the amount of water released from clouds in the
@@ -483,8 +465,3 @@ be in the eastern part of the country, which is adjacent to the Pacific
 Ocean, where most tropical cyclones are more likely to form. It can also
 be due to a province's land area, since provinces with low average
 precipitation are typically islands with smaller land areas.
-
-#### **Submitted By:**
-
-Ayad, Ruszed Jy \| Cariño, Brecht Algren \| Macalisang, Ian Jure \|
-Santos, Joanna Reyda
