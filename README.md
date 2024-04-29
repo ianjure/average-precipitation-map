@@ -1,4 +1,4 @@
-<img src="Philippines Average Precipitation Map.png" width="128"/>
+<img src="Philippines Average Precipitation Map.png" width="1000"/>
 
 ## About the Project
 
