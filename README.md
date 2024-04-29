@@ -1,3 +1,5 @@
+<img src="Philippines Average Precipitation Map.png" width="128"/>
+
 ## About the Project
 
 Precipitation refers to the amount of water released from clouds in the
