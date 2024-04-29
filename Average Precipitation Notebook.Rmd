@@ -244,7 +244,7 @@ precipitation data.
 
 Export the plot's legend as an image using ggpubr.
 
-```{r eval=FALSE}
+```{r}
 lgnd <- ggplot(
     data = mswep_average_df
 ) +
@@ -308,7 +308,7 @@ ggplot's functions.
 Use Rayshader to create a 3D representation of the average
 precipitation.
 
-```{r message=FALSE, eval=FALSE}
+```{r}
 rayshader::plot_gg(
     ggobj = map,
     width = 7,
@@ -323,7 +323,7 @@ rayshader::plot_gg(
 )
 ```
 
-```{r message=FALSE, eval=FALSE}
+```{r}
 rayshader::render_camera(
     phi = 55,
     theta = 15,
@@ -338,7 +338,7 @@ using the rayshader package.
 
 Download an HDRI file and render a high-quality image of the 3D map.
 
-```{r eval=FALSE}
+```{r}
 hdri_url <- "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/air_museum_playground_4k.hdr"
 
 hdri_file <- basename(hdri_url)
@@ -371,7 +371,7 @@ effects.
 
 You can add names and more details about your generated visualization.
 
-```{r eval=FALSE, tidy=TRUE}
+```{r}
 pop_raster <- image_read("PH_3D_Render.png")
 
 pop_raster %>%
@@ -419,8 +419,7 @@ pop_raster %>%
                  size = 85,
                  weight = 500,
   ) %>%
-  image_annotate("Visualization by: Ayad, Cariño, Macalisang and Santos\n
-                 Data: Multi-Source Weighted-Ensemble Precipitation (MSWEP) 1979-2022",
+  image_annotate("Visualization by: Ian Jure Macalisang\nData: Multi-Source Weighted-Ensemble Precipitation (MSWEP) 1979-2022",
                  gravity = "southwest",
                  location = "+75+65",
                  color = "#005E5E",
